@@ -1,0 +1,45 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+}
+
+android {
+    compileSdkVersion Config.compileSdkVersion
+    buildToolsVersion Config.buildToolsVersion
+
+    defaultConfig {
+        applicationId "com.noscale.monta"
+        minSdkVersion Config.minSdkVersion
+        targetSdkVersion Config.targetSdkVersion
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility Config.javaVersion
+        targetCompatibility Config.javaVersion
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+}
+
+dependencies {
+
+    implementation Lib.kotlinStandardLibrary
+    implementation Lib.androidxCore
+    implementation Lib.androidxAppcompat
+    implementation Lib.androidxMaterial
+    implementation Lib.androidxConstraintLayout
+    testImplementation Lib.junit
+    androidTestImplementation Lib.androidxJunit
+    androidTestImplementation Lib.androidxEspresso
+}
