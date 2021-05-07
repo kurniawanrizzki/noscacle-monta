@@ -1,11 +1,7 @@
 package com.noscale.monta
 
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
+import com.noscale.cerberus.BaseActivity
 
-class SplashActivity : AppCompatActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_splash)
-    }
+class SplashActivity : BaseActivity() {
+    override var mLayoutResource: Int = R.layout.activity_splash
 }

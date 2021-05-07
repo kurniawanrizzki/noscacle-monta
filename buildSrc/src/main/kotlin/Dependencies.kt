@@ -20,6 +20,8 @@ object Version {
     val appcompatVersion = "1.2.0"
     val materialVersion = "1.3.0"
     val constraintLayoutVersion = "2.0.4"
+    val lottieVersion = "3.7.0"
+    val intuitVersion = "1.0.6"
 
     val junitVersion = "4.+"
     val junitExtVersion = "1.1.2"
@@ -34,6 +36,9 @@ object Lib {
     val androidxAppcompat = "androidx.appcompat:appcompat:${Version.appcompatVersion}"
     val androidxMaterial = "com.google.android.material:material:${Version.materialVersion}"
     val androidxConstraintLayout = "androidx.constraintlayout:constraintlayout:${Version.constraintLayoutVersion}"
+    val lottie = "com.airbnb.android:lottie:${Version.lottieVersion}"
+    val sdp = "com.intuit.ssp:ssp-android:${Version.intuitVersion}"
+    val ssp = "com.intuit.sdp:sdp-android:${Version.intuitVersion}"
 
     val androidxEspresso = "androidx.test.espresso:espresso-core:${Version.espressoVersion}"
     val androidxJunit = "androidx.test.ext:junit:${Version.junitExtVersion}"
