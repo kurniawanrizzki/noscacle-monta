@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="ThemeOverlay.MaterialComponents.Light">
+
+    </style>
+
+    <style name="AppTheme.TextAppearance.Headline1" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="android:textSize">@dimen/_88ssp</item>
+        <item name="android:fontFamily">@font/cc_rubik_light</item>
+        <item name="android:letterSpacing">1.5</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Headline2" parent="TextAppearance.MaterialComponents.Headline2">
+        <item name="android:textSize">@dimen/_50ssp</item>
+        <item name="android:fontFamily">@font/cc_rubik_light</item>
+        <item name="android:letterSpacing">0.5</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Headline3" parent="TextAppearance.MaterialComponents.Headline3">
+        <item name="android:textSize">@dimen/_40ssp</item>
+        <item name="android:fontFamily">@font/cc_rubik_normal</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Headline4" parent="TextAppearance.MaterialComponents.Headline4">
+        <item name="android:textSize">@dimen/_28ssp</item>
+        <item name="android:fontFamily">@font/cc_rubik_normal</item>
+        <item name="android:letterSpacing">0.25</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Headline5" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="android:textSize">@dimen/_20ssp</item>
+        <item name="android:fontFamily">@font/cc_rubik_normal</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Headline6" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textSize">@dimen/_15ssp</item>
+        <item name="android:fontFamily">@font/cc_rubik_medium</item>
+        <item name="android:letterSpacing">0.15</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Subtitle1" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:textSize">@dimen/_13ssp</item>
+        <item name="android:fontFamily">@font/cc_rubik_normal</item>
+        <item name="android:letterSpacing">0.15</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Subtitle2" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:fontFamily">@font/cc_rubik_medium</item>
+        <item name="android:letterSpacing">0.1</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Body1" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textSize">@dimen/_13ssp</item>
+        <item name="android:fontFamily">@font/cc_rubik_normal</item>
+        <item name="android:letterSpacing">0.5</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Body2" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:fontFamily">@font/cc_rubik_normal</item>
+        <item name="android:letterSpacing">0.25</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Button" parent="TextAppearance.MaterialComponents.Button">
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:fontFamily">@font/cc_rubik_medium</item>
+        <item name="android:letterSpacing">1.25</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Caption" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="android:fontFamily">@font/cc_rubik_normal</item>
+        <item name="android:letterSpacing">0.4</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Overline" parent="TextAppearance.MaterialComponents.Overline">
+        <item name="android:textSize">@dimen/_8ssp</item>
+        <item name="android:fontFamily">@font/cc_rubik_normal</item>
+        <item name="android:letterSpacing">1.5</item>
+    </style>
+</resources>

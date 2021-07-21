@@ -1,6 +1,11 @@
 plugins {
-    id 'com.android.application'
+    id 'com.android.library'
     id 'kotlin-android'
+    id 'kotlin-android-extensions'
+}
+
+androidExtensions {
+    experimental = true
 }
 
 android {
@@ -8,7 +13,6 @@ android {
     buildToolsVersion Config.buildToolsVersion
 
     defaultConfig {
-        applicationId "com.noscale.monta"
         minSdkVersion Config.minSdkVersion
         targetSdkVersion Config.targetSdkVersion
         versionCode 1
@@ -16,29 +20,18 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
-
-    buildTypes {
-        release {
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-        }
-    }
-    compileOptions {
-        sourceCompatibility Config.javaVersion
-        targetCompatibility Config.javaVersion
-    }
-    kotlinOptions {
-        jvmTarget = '1.8'
-    }
 }
 
 dependencies {
-    implementation project(":cerberus")
-    implementation Lib.kotlinStandardLibrary
     implementation Lib.androidxCore
+    implementation Lib.kotlinStandardLibrary
     implementation Lib.androidxAppcompat
-    implementation Lib.androidxMaterial
     implementation Lib.androidxConstraintLayout
+    implementation Lib.androidxMaterial
+    implementation Lib.lottie
+    implementation Lib.sdp
+    implementation Lib.ssp
+
     testImplementation Lib.junit
     androidTestImplementation Lib.androidxJunit
     androidTestImplementation Lib.androidxEspresso

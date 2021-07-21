@@ -1,2 +1,3 @@
+include ':cerberus'
 include ':app'
 rootProject.name = "monta"
